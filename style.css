@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans");
+
+body {
+  background-color: fefae0;
+  font-family: 'Nunito Sans';
+  line-height: normal;
+  font-size: small;
+  color: 606c38;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: x-large;
+  color: 283618;
+}
+
+h2 {
+  font-family: 'Fira Sans';
+  font-size: medium;
+  color: 283618;
+}
+
+p {
+  font-family: 'Nunito Sans';
+  font-size: small;
+}
+
+a {
+  text-decoration: none;
+  color: 606c38;
+  font-size: x-large;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: 283618;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border: 1px solid lightgrey;
+    margin: 20px 0px;
+    border-radius: 4px;
+}
+
+.container {
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-brown {
+  font-size: medium;
+  margin: 20px;
+  background-color: 606C38;
+  color: FEFAE0;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.btn-brown:hover {
+  text-decoration: none;
+  color: FEFAE0;
+  background-color: black;
+}
